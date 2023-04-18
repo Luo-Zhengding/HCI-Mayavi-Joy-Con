@@ -14,6 +14,9 @@ Joy-Con code reference:
 https://github.com/tocoteron/joycon-python
 
 The interaction is based on the gyroscope and Button events of the Joy-Con controller.
+
 • Rotation: The 3D model can be rotated along the x, y, and z axes by changing the orientation property of the 3D model using the rotation matrix, which is obtained from the Joy-Con's orientation data.
+
 • Scaling: We can zoom in and out by changing the scale of the object using the Joy-Con's buttons 'right_sr' and 'right_sl', respectively.
+
 • Translation: We can move the Bunny model along the x, y, and z axes by using the Joy-Con's 'A', 'Y', 'B', 'Z', 'ZR' and 'R' buttons.
